@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>LeanCode.Standard.Encryption</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Commodities</Authors>
+    <Company>LeanCode</Company>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>../Build/Standard</OutputPath>
+  </PropertyGroup>
+
+</Project>

@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LeanCode.Standard.Serialization\LeanCode.Standard.Serialization.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>LeanCode.Standard.Web</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Thor</Authors>
+    <Company>LeanCode</Company>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>../Build/Standard</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LeanCode.Standard.Logging\LeanCode.Standard.Logging.csproj" />
+    <ProjectReference Include="..\LeanCode.Standard.Serialization\LeanCode.Standard.Serialization.csproj" />
+  </ItemGroup>
+
+</Project>
